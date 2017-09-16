@@ -14,6 +14,8 @@
 		D8291DBB1F6DA29000A2E22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8291DBA1F6DA29000A2E22B /* Assets.xcassets */; };
 		D8291DBE1F6DA29000A2E22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8291DBC1F6DA29000A2E22B /* LaunchScreen.storyboard */; };
 		D8291DC91F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8291DC81F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift */; };
+		D8291DDD1F6DA8D900A2E22B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8291DDF1F6DA8D900A2E22B /* Localizable.strings */; };
+		F17C36C78879458F7A129CB0 /* Pods_MadridShoppingSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEAF55AB094BBEF1AAA46B0 /* Pods_MadridShoppingSwiftApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F243107DF31B404F5F7256 /* Pods-MadridShoppingSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadridShoppingSwiftApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadridShoppingSwiftApp/Pods-MadridShoppingSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		2BEAF55AB094BBEF1AAA46B0 /* Pods_MadridShoppingSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadridShoppingSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5073650AA10F22FCD512A73B /* Pods_MadridShoppingSwiftAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadridShoppingSwiftAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EDD87F8C96FBE1C70F27EF /* Pods-MadridShoppingSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadridShoppingSwiftApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadridShoppingSwiftApp/Pods-MadridShoppingSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D8291DAD1F6DA29000A2E22B /* MadridShoppingSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadridShoppingSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8291DB01F6DA29000A2E22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8291DB21F6DA29000A2E22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,12 @@
 		D8291DC41F6DA29000A2E22B /* MadridShoppingSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadridShoppingSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8291DC81F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadridShoppingSwiftAppTests.swift; sourceTree = "<group>"; };
 		D8291DCA1F6DA29000A2E22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8291DD61F6DA70000A2E22B /* MadridShoppingSwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MadridShoppingSwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8291DDA1F6DA7C800A2E22B /* MadridShoppingSwiftApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MadridShoppingSwiftApp.pch; sourceTree = "<group>"; };
+		D8291DDE1F6DA8D900A2E22B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D8291DE21F6DA97800A2E22B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		D8291DE31F6DA97800A2E22B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D8291DE41F6DA97800A2E22B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17C36C78879458F7A129CB0 /* Pods_MadridShoppingSwiftApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +71,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92E2E395D0483AF263EBE3C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BEAF55AB094BBEF1AAA46B0 /* Pods_MadridShoppingSwiftApp.framework */,
+				5073650AA10F22FCD512A73B /* Pods_MadridShoppingSwiftAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8291DA41F6DA29000A2E22B = {
 			isa = PBXGroup;
 			children = (
 				D8291DAF1F6DA29000A2E22B /* MadridShoppingSwiftApp */,
 				D8291DC71F6DA29000A2E22B /* MadridShoppingSwiftAppTests */,
 				D8291DAE1F6DA29000A2E22B /* Products */,
+				EB1A01E1C2D8C0F09614EC1B /* Pods */,
+				92E2E395D0483AF263EBE3C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,12 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				D8291DB01F6DA29000A2E22B /* AppDelegate.swift */,
-				D8291DB21F6DA29000A2E22B /* ViewController.swift */,
+				D8291DE51F6DA9A200A2E22B /* Configuration */,
+				D8291DE71F6DA9D100A2E22B /* CoreData */,
+				D8291DE61F6DA9B300A2E22B /* Controllers */,
 				D8291DB41F6DA29000A2E22B /* Main.storyboard */,
-				D8291DBA1F6DA29000A2E22B /* Assets.xcassets */,
 				D8291DBC1F6DA29000A2E22B /* LaunchScreen.storyboard */,
-				D8291DBF1F6DA29000A2E22B /* Info.plist */,
-				D8291DB71F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodeld */,
 			);
 			path = MadridShoppingSwiftApp;
 			sourceTree = "<group>";
@@ -99,6 +122,43 @@
 			path = MadridShoppingSwiftAppTests;
 			sourceTree = "<group>";
 		};
+		D8291DE51F6DA9A200A2E22B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D8291DBF1F6DA29000A2E22B /* Info.plist */,
+				D8291DBA1F6DA29000A2E22B /* Assets.xcassets */,
+				D8291DD61F6DA70000A2E22B /* MadridShoppingSwiftApp-Bridging-Header.h */,
+				D8291DDA1F6DA7C800A2E22B /* MadridShoppingSwiftApp.pch */,
+				D8291DDF1F6DA8D900A2E22B /* Localizable.strings */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		D8291DE61F6DA9B300A2E22B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8291DB21F6DA29000A2E22B /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D8291DE71F6DA9D100A2E22B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D8291DB71F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		EB1A01E1C2D8C0F09614EC1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83EDD87F8C96FBE1C70F27EF /* Pods-MadridShoppingSwiftApp.debug.xcconfig */,
+				00F243107DF31B404F5F7256 /* Pods-MadridShoppingSwiftApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8291DCD1F6DA29000A2E22B /* Build configuration list for PBXNativeTarget "MadridShoppingSwiftApp" */;
 			buildPhases = (
+				0F9672F7831550E1BDAF727F /* [CP] Check Pods Manifest.lock */,
 				D8291DA91F6DA29000A2E22B /* Sources */,
 				D8291DAA1F6DA29000A2E22B /* Frameworks */,
 				D8291DAB1F6DA29000A2E22B /* Resources */,
+				3D2A1B45D73FE540C83F300D /* [CP] Embed Pods Frameworks */,
+				7F8B74FA983EB892979C7D08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +212,7 @@
 				TargetAttributes = {
 					D8291DAC1F6DA29000A2E22B = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					D8291DC31F6DA29000A2E22B = {
@@ -165,6 +229,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = D8291DA41F6DA29000A2E22B;
 			productRefGroup = D8291DAE1F6DA29000A2E22B /* Products */;
@@ -183,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8291DBE1F6DA29000A2E22B /* LaunchScreen.storyboard in Resources */,
+				D8291DDD1F6DA8D900A2E22B /* Localizable.strings in Resources */,
 				D8291DBB1F6DA29000A2E22B /* Assets.xcassets in Resources */,
 				D8291DB61F6DA29000A2E22B /* Main.storyboard in Resources */,
 			);
@@ -196,6 +262,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F9672F7831550E1BDAF727F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadridShoppingSwiftApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D2A1B45D73FE540C83F300D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MadridShoppingSwiftApp/Pods-MadridShoppingSwiftApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadridShoppingSwiftApp/Pods-MadridShoppingSwiftApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8B74FA983EB892979C7D08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadridShoppingSwiftApp/Pods-MadridShoppingSwiftApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8291DA91F6DA29000A2E22B /* Sources */ = {
@@ -231,6 +351,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D8291DB51F6DA29000A2E22B /* Base */,
+				D8291DE21F6DA97800A2E22B /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -239,8 +360,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				D8291DBD1F6DA29000A2E22B /* Base */,
+				D8291DE31F6DA97800A2E22B /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D8291DDF1F6DA8D900A2E22B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8291DDE1F6DA8D900A2E22B /* en */,
+				D8291DE41F6DA97800A2E22B /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -307,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -355,13 +488,17 @@
 		};
 		D8291DCE1F6DA29000A2E22B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EDD87F8C96FBE1C70F27EF /* Pods-MadridShoppingSwiftApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MadridShoppingSwiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bustos.MadridShoppingSwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MadridShoppingSwiftApp/MadridShoppingSwiftApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -369,13 +506,16 @@
 		};
 		D8291DCF1F6DA29000A2E22B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F243107DF31B404F5F7256 /* Pods-MadridShoppingSwiftApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MadridShoppingSwiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bustos.MadridShoppingSwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MadridShoppingSwiftApp/MadridShoppingSwiftApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

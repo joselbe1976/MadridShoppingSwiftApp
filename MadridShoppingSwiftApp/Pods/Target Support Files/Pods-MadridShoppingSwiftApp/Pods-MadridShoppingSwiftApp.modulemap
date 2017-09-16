@@ -1,0 +1,6 @@
+framework module Pods_MadridShoppingSwiftApp {
+  umbrella header "Pods-MadridShoppingSwiftApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

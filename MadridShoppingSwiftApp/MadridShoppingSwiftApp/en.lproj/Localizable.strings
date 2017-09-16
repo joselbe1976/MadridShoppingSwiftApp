@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  MadridShoppingSwiftApp
+
+  Created by JOSE LUIS BUSTOS ESTEBAN on 16/9/17.
+  Copyright © 2017 jose luis Bustos. All rights reserved.
+*/
+
+GLOBAL_LOAD_DATA = "Loading data ...";
