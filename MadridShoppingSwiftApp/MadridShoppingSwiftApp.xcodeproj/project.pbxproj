@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8291DB11F6DA29000A2E22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8291DB01F6DA29000A2E22B /* AppDelegate.swift */; };
+		D8291DB31F6DA29000A2E22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8291DB21F6DA29000A2E22B /* ViewController.swift */; };
+		D8291DB61F6DA29000A2E22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8291DB41F6DA29000A2E22B /* Main.storyboard */; };
+		D8291DB91F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8291DB71F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodeld */; };
+		D8291DBB1F6DA29000A2E22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8291DBA1F6DA29000A2E22B /* Assets.xcassets */; };
+		D8291DBE1F6DA29000A2E22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8291DBC1F6DA29000A2E22B /* LaunchScreen.storyboard */; };
+		D8291DC91F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8291DC81F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8291DC51F6DA29000A2E22B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8291DA51F6DA29000A2E22B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8291DAC1F6DA29000A2E22B;
+			remoteInfo = MadridShoppingSwiftApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8291DAD1F6DA29000A2E22B /* MadridShoppingSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadridShoppingSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8291DB01F6DA29000A2E22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8291DB21F6DA29000A2E22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8291DB51F6DA29000A2E22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8291DB81F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MadridShoppingSwiftApp.xcdatamodel; sourceTree = "<group>"; };
+		D8291DBA1F6DA29000A2E22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8291DBD1F6DA29000A2E22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8291DBF1F6DA29000A2E22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8291DC41F6DA29000A2E22B /* MadridShoppingSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadridShoppingSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8291DC81F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadridShoppingSwiftAppTests.swift; sourceTree = "<group>"; };
+		D8291DCA1F6DA29000A2E22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8291DAA1F6DA29000A2E22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8291DC11F6DA29000A2E22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8291DA41F6DA29000A2E22B = {
+			isa = PBXGroup;
+			children = (
+				D8291DAF1F6DA29000A2E22B /* MadridShoppingSwiftApp */,
+				D8291DC71F6DA29000A2E22B /* MadridShoppingSwiftAppTests */,
+				D8291DAE1F6DA29000A2E22B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8291DAE1F6DA29000A2E22B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8291DAD1F6DA29000A2E22B /* MadridShoppingSwiftApp.app */,
+				D8291DC41F6DA29000A2E22B /* MadridShoppingSwiftAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8291DAF1F6DA29000A2E22B /* MadridShoppingSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				D8291DB01F6DA29000A2E22B /* AppDelegate.swift */,
+				D8291DB21F6DA29000A2E22B /* ViewController.swift */,
+				D8291DB41F6DA29000A2E22B /* Main.storyboard */,
+				D8291DBA1F6DA29000A2E22B /* Assets.xcassets */,
+				D8291DBC1F6DA29000A2E22B /* LaunchScreen.storyboard */,
+				D8291DBF1F6DA29000A2E22B /* Info.plist */,
+				D8291DB71F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodeld */,
+			);
+			path = MadridShoppingSwiftApp;
+			sourceTree = "<group>";
+		};
+		D8291DC71F6DA29000A2E22B /* MadridShoppingSwiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8291DC81F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift */,
+				D8291DCA1F6DA29000A2E22B /* Info.plist */,
+			);
+			path = MadridShoppingSwiftAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8291DAC1F6DA29000A2E22B /* MadridShoppingSwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8291DCD1F6DA29000A2E22B /* Build configuration list for PBXNativeTarget "MadridShoppingSwiftApp" */;
+			buildPhases = (
+				D8291DA91F6DA29000A2E22B /* Sources */,
+				D8291DAA1F6DA29000A2E22B /* Frameworks */,
+				D8291DAB1F6DA29000A2E22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadridShoppingSwiftApp;
+			productName = MadridShoppingSwiftApp;
+			productReference = D8291DAD1F6DA29000A2E22B /* MadridShoppingSwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8291DC31F6DA29000A2E22B /* MadridShoppingSwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8291DD01F6DA29000A2E22B /* Build configuration list for PBXNativeTarget "MadridShoppingSwiftAppTests" */;
+			buildPhases = (
+				D8291DC01F6DA29000A2E22B /* Sources */,
+				D8291DC11F6DA29000A2E22B /* Frameworks */,
+				D8291DC21F6DA29000A2E22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8291DC61F6DA29000A2E22B /* PBXTargetDependency */,
+			);
+			name = MadridShoppingSwiftAppTests;
+			productName = MadridShoppingSwiftAppTests;
+			productReference = D8291DC41F6DA29000A2E22B /* MadridShoppingSwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8291DA51F6DA29000A2E22B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "jose luis Bustos";
+				TargetAttributes = {
+					D8291DAC1F6DA29000A2E22B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D8291DC31F6DA29000A2E22B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8291DAC1F6DA29000A2E22B;
+					};
+				};
+			};
+			buildConfigurationList = D8291DA81F6DA29000A2E22B /* Build configuration list for PBXProject "MadridShoppingSwiftApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8291DA41F6DA29000A2E22B;
+			productRefGroup = D8291DAE1F6DA29000A2E22B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8291DAC1F6DA29000A2E22B /* MadridShoppingSwiftApp */,
+				D8291DC31F6DA29000A2E22B /* MadridShoppingSwiftAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8291DAB1F6DA29000A2E22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8291DBE1F6DA29000A2E22B /* LaunchScreen.storyboard in Resources */,
+				D8291DBB1F6DA29000A2E22B /* Assets.xcassets in Resources */,
+				D8291DB61F6DA29000A2E22B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8291DC21F6DA29000A2E22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8291DA91F6DA29000A2E22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8291DB31F6DA29000A2E22B /* ViewController.swift in Sources */,
+				D8291DB11F6DA29000A2E22B /* AppDelegate.swift in Sources */,
+				D8291DB91F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8291DC01F6DA29000A2E22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8291DC91F6DA29000A2E22B /* MadridShoppingSwiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8291DC61F6DA29000A2E22B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8291DAC1F6DA29000A2E22B /* MadridShoppingSwiftApp */;
+			targetProxy = D8291DC51F6DA29000A2E22B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8291DB41F6DA29000A2E22B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8291DB51F6DA29000A2E22B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8291DBC1F6DA29000A2E22B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8291DBD1F6DA29000A2E22B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8291DCB1F6DA29000A2E22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8291DCC1F6DA29000A2E22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8291DCE1F6DA29000A2E22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadridShoppingSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bustos.MadridShoppingSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D8291DCF1F6DA29000A2E22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadridShoppingSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bustos.MadridShoppingSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D8291DD11F6DA29000A2E22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadridShoppingSwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bustos.MadridShoppingSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadridShoppingSwiftApp.app/MadridShoppingSwiftApp";
+			};
+			name = Debug;
+		};
+		D8291DD21F6DA29000A2E22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadridShoppingSwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bustos.MadridShoppingSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadridShoppingSwiftApp.app/MadridShoppingSwiftApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8291DA81F6DA29000A2E22B /* Build configuration list for PBXProject "MadridShoppingSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8291DCB1F6DA29000A2E22B /* Debug */,
+				D8291DCC1F6DA29000A2E22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8291DCD1F6DA29000A2E22B /* Build configuration list for PBXNativeTarget "MadridShoppingSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8291DCE1F6DA29000A2E22B /* Debug */,
+				D8291DCF1F6DA29000A2E22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8291DD01F6DA29000A2E22B /* Build configuration list for PBXNativeTarget "MadridShoppingSwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8291DD11F6DA29000A2E22B /* Debug */,
+				D8291DD21F6DA29000A2E22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8291DB71F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8291DB81F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodel */,
+			);
+			currentVersion = D8291DB81F6DA29000A2E22B /* MadridShoppingSwiftApp.xcdatamodel */;
+			path = MadridShoppingSwiftApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D8291DA51F6DA29000A2E22B /* Project object */;
+}
